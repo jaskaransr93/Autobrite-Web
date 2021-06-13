@@ -22,9 +22,9 @@ const Header = () => {
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
           <Link href="/"><a className="mr-5 hover:text-gray-900">Home</a></Link>
           <Link href="/catalogue"><a className="mr-5 hover:text-gray-900">Catalogue</a></Link>
-          <Link href="/"><a className="mr-5 hover:text-gray-900">Infrastructure</a></Link>
+          <Link href="/infrastructure"><a className="mr-5 hover:text-gray-900">Infrastructure</a></Link>
           <Link href="/contact"><a className="mr-5 hover:text-gray-900">Contact</a></Link>
-          <Link href="/"><a className="mr-5 hover:text-gray-900">About Us</a></Link>
+          <Link href="/about"><a className="mr-5 hover:text-gray-900">About Us</a></Link>
         </nav>
         {/* <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
           Button
